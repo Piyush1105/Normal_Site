@@ -13,7 +13,6 @@
   align-items: center;
   display: flex;
   flex-direction: column;
-  position: fixed;
 }
 
 .nav-image {
@@ -29,13 +28,16 @@
 
 /* Nav links */
 .nav-links {
-  margin: 200px 0 100px 0;
+  
   width: 100%;
+  display: block;
   text-align: center;
+  
   /* border: 2px solid blue; */
 }
 
 .nav-links a {
+  align-items: center;
   text-decoration: none;
   display: block;
   color: White;
@@ -57,7 +59,7 @@
 /* Social Media Links */
 .social-media {
   position: absolute;
-  bottom: 240px;
+  bottom: 10px;
 }
 .social-media a {
   padding: 0 5px 0 5px;
